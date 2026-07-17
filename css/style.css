@@ -278,7 +278,7 @@ background-color: rgba(0, 0, 0, 0.982);
     justify-content: flex-end;
     align-items: center;
     gap: 40px;
-    padding: 20px 0px;
+    padding: 20px 10px;
 }
 
 .mars img {
@@ -290,7 +290,6 @@ background-color: rgba(0, 0, 0, 0.982);
 .text-mars{
     display: flex;
     flex-direction: column;
-    /* width: 500px; */
 }
 
 .text-mars h2 {
