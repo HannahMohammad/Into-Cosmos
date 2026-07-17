@@ -146,7 +146,14 @@ padding-top: 180px;
 .sec2 img {
     width: 100%;
     border-radius: 40px;
+    transition: 0.8s;
 }
+
+.img-about :hover{
+     transform: translateY(-2px);
+       box-shadow: 0 0 30px rgba(42, 8, 99, 0.85);
+}
+
 
 .text-sec2 {
     width: 40%;
@@ -194,6 +201,12 @@ padding-top: 180px;
     width: 100%;
     height: 220px;      
     object-fit: cover;
+    transition: 0.8s;
+}
+
+.img-mission-hover :hover{
+    transform: translateY(-4px);
+       box-shadow: 0 0 30px rgba(42, 8, 99, 0.85);
 }
 
 .img-mission  h2{
@@ -230,8 +243,8 @@ background-color: rgba(0, 0, 0, 0.969);
 
 .img-feature  img{
     width: 100%;
+    transition: 0.8s;
 }
-
 .planet-1-3{
     display: flex;
     align-items: center;
@@ -264,10 +277,17 @@ background-color: rgba(0, 0, 0, 0.969);
     color: rgb(255, 255, 255, 0.722);
  }
 
+ .neptun-hover{
+      box-shadow: 0 0 30px rgb(13, 141, 210);
+ }
+
+ .earth-hover{
+      box-shadow: 0 0 30px rgb(132, 198, 110);
+ }
 .mars {
     display: flex;
     justify-content: flex-end;
-    align-items: center;
+    align-items: flex-start;
     gap: 40px;
     padding: 20px 15px;
 }
@@ -277,6 +297,8 @@ background-color: rgba(0, 0, 0, 0.969);
     height: 200px;
     width: 200px;
     object-fit: cover;
+    transition: 0.8s;
+      box-shadow: 0 0 30px rgb(214, 122, 99);
 }
 .text-mars{
     display: flex;
@@ -292,3 +314,33 @@ padding-bottom: 10px;
     color: rgb(255, 255, 255, 0.722);
 }
 
+.feature-hover :hover{
+    transform: translateY(-4px);
+}
+
+.btn-explore{
+     color: white;
+    background-color: transparent;
+    font-size: 15px;
+    border-radius: 20px;
+    border: 2px solid rgb(61, 16, 83);
+    padding: 10px 12px;
+    margin-top: 5px;
+    cursor: pointer;
+    width: fit-content;
+    transition: 0.3s
+}
+
+.btn-explore:hover {
+    transform: translateY(-1px);
+}
+
+.sec5{
+    background-color: rgba(0, 0, 0, 0.969);
+}
+
+.space-mission-text{
+    color: white;
+    text-align: center;
+    padding-top: 160px;
+}
