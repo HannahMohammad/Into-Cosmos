@@ -273,22 +273,32 @@ background-color: rgba(0, 0, 0, 0.982);
     color: rgb(255, 255, 255, 0.722);
  }
 
-.mars{
+.mars {
     display: flex;
+    justify-content: flex-end;
     align-items: center;
-    gap: 30px;
-    padding: 10px;
-    padding-left: 640px;
+    gap: 40px;
+    padding: 20px 0px;
 }
 
-.mars  img{
+.mars img {
     border-radius: 50%;
     height: 200px;
     width: 200px;
     object-fit: cover;
 }
+.text-mars{
+    display: flex;
+    flex-direction: column;
+    /* width: 500px; */
+}
 
-.text-mars  h2{
+.text-mars h2 {
     color: rgb(124, 51, 32);
+padding-bottom: 10px;
+}
+
+.text-mars  p {
+    color: rgb(255, 255, 255, 0.722);
 }
 
