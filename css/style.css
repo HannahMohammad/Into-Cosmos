@@ -408,9 +408,5 @@
     margin-top: 5px;
     cursor: pointer;
     width: fit-content;
-    transition: 0.3s
-}
-
-.button-sec5 :hover{
-     transform: translateY(-1px);
+    transition: 0.8s
 }
